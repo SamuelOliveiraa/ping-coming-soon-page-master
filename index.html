@@ -1,34 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Page</title>
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Ping coming soon page</title>
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <!--BOX ICON-->  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--STYLE-->
+    <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
+    <div class="container">
+        <div class="text">
+            <img src="./images/logo.svg" alt="logo" id="logo">
 
-  We are launching soon!
+            <h2>
+                We are launching <strong>soon!</strong>
+            </h2>
 
-  Subscribe and get notified
+            <p>
+                Subscribe and get notified
+            </p>
+        </div>
 
-  Notify Me
+        <div class="inputs">
+            <input type="email" name="email" id="email" placeholder="Your email adrress">
 
-  &copy; Copyright Ping. All rights reserved.
+            <input type="submit" value="Notify me">
+        </div>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+        <div class="img-container">
+            <img src="./images/illustration-dashboard.png" alt="ilustration a dashboard" width="200px">
+        </div>
+
+        <div class="footer">
+            <i class='bx bxl-facebook' ></i>
+
+            <i class='bx bxl-twitter' ></i>
+
+            <i class='bx bxl-instagram' ></i>
+
+            <p>
+                &copy;Challenge by <a target="_blank" href="https://www.frontendmentor.io">FrontEnd Mentor</a>. Code by <a target="_blank" href="https://github.com/samueloliveiraa">Samuel Oliveira</a>.
+            </p>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
