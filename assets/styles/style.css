@@ -1,0 +1,147 @@
+/* RESET  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+/* VARIABLES  */
+:root{
+    --blue: hsl(223, 87%, 63%);
+    --pale-blue: hsl(223, 100%, 88%);
+    --light-red: hsl(354, 100%, 66%);
+    --gray: hsl(0, 0%, 59%);
+    --very-dark-blue: hsl(209, 33%, 12%);
+}
+
+/* BODY  */
+
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    color: var(--gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden ;
+}
+
+/* CONTAINER  */
+.container{
+    max-width: 650px;
+    min-height: 500px;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+/* TEXT  */
+.container .text #logo{
+    margin-bottom: 2.2rem;
+}
+.container .text h2{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1.4rem;
+}
+.container .text h2 strong{
+    color: var(--very-dark-blue);
+}
+
+.container .text p{
+    color: var(--very-dark-blue);
+    margin-bottom: 2rem;
+}
+
+/* INPUTS  */
+.container .inputs{
+    position: relative;
+}
+
+.container .inputs input{
+    width: 80%;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 1px solid var(--gray);
+    font-size: 1rem;
+}
+.container .inputs .input-container{
+    display: inline-block;
+    width: 100%;
+}
+.container .inputs #email{
+    margin-bottom: 0.7rem;
+    padding-left: 2rem;
+}
+.container .inputs #btn{
+    background-color: var(--blue);
+    color: white;
+    cursor: pointer;
+}
+.container .inputs #msg-error{
+    font-size: 0.8rem;
+    color: var(--light-red);
+    margin-bottom: 1.5rem;
+    display:none
+}
+
+/* IMG-CONTAINER  */
+.container .img-container{
+    margin-top: 6rem;
+    margin-bottom: 7rem;
+}
+.container .img-container img{
+    width: 80%;
+}
+
+/*  FOOTER  */
+.container .footer .bx{
+    border: 1px solid var(--pale-blue);
+    border-radius: 1rem;
+    padding: 0.4rem;
+    color: var(--blue);
+}
+.container .footer .bx:hover{
+    color: var(--very-dark-blue);
+    border: 1px solid var(--very-dark-blue);
+}
+.container .footer .bxl-linkedin{
+    margin: 0 0.5rem;
+}
+.container .footer p{
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.container .footer p a{
+    color:var(--blue)
+}
+.container .footer p a:hover{
+    color: var(--very-dark-blue);
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 750px) {
+    .container .text h2{
+        font-size: 3rem;
+    }
+    .container .inputs{
+        text-align: left;
+    }
+    .container .inputs .input-container{
+        width: 70%;
+        margin-right: 0.4rem;
+    }
+    .container .inputs .input-container p{
+        text-align: center;
+    }
+    .container .inputs #email{
+        width: 100%;
+    }
+    .container .inputs #btn{
+        width: 30%;
+        position: absolute;
+    }
+}
