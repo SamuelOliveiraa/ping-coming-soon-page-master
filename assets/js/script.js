@@ -27,7 +27,7 @@ btn.addEventListener('click', function() {
     }else{
         email.style.display = 'hsl(0, 0%, 59%)'
         msgerror.style.display = 'none'
-        window.location.href = '/cadastro.html'
+        window.location.href = '../../cadastro.html'
     }
 
 })
