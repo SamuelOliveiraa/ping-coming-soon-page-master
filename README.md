@@ -18,6 +18,7 @@ My biggest difficulties in this project were implementing the Email validation w
 * CSS3
 * JAVASCRIPT
 * Media-queries
+* Responsive Website
 
 ## Access My Resolution 💻
 
