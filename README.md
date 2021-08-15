@@ -22,4 +22,4 @@ My biggest difficulties in this project were implementing the Email validation w
 
 ## Access My Resolution 💻
 
-  I hosted this challenge with the help of GitHub Pages to access my resolution of this challenge [Click Here]( https://samueloliveiraa.github.io/ping-coming-soon-page-master/)
+  I hosted this challenge with the help of [Netlify](https://www.netlify.com/) to access my resolution of this challenge [Click Here](https://ping-comin-soon-page.netlify.app/index.html)
